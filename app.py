@@ -6,8 +6,12 @@ import numpy as np
 import pandas as pd
 import duckdb
 import streamlit as st
+st.set_page_config(page_title='PRADAR · Dynamic Pricing VR', layout='wide')
 try:
     st.sidebar.image('images/logo_pradar_main.png', width=180)
+except Exception:
+    pass
+try:
 except Exception:
     pass
 import logging
@@ -16,12 +20,6 @@ import unicodedata, re
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("PRADAR")
 
-st.set_page_config(
-    page_title="PRADAR - Price Radar",
-    page_icon="💶",
-    layout="wide",
-    initial_sidebar_state="expanded",
-)
 
 # ----------- CSS (sidebar ancha + botones con estado) -----------
 st.markdown("""
