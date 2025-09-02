@@ -1,5 +1,12 @@
 # PRADAR · Calculadora de Precios VR (App Streamlit)
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pradartfmdemo-vqvatyrcaevxyfn6clpvzj.streamlit.app/)
+
+**Demo online:** https://pradartfmdemo-vqvatyrcaevxyfn6clpvzj.streamlit.app/
+
+![Logo](images/logo_pradar_main.png)
+
+
 Aplicación **read‑only** para **visualizar y descargar precios diarios** generados por el pipeline PRADAR (notebooks `00→04`).  
 > **No re‑entrena** modelos ni **optimiza** precios: **consume artefactos** exportados por los cuadernos.
 
