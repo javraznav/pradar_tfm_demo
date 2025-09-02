@@ -1,6 +1,6 @@
 # PRADAR · Calculadora de Precios VR (App Streamlit)
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pradartfmdemo-vqvatyrcaevxyfn6clpvzj.streamlit.app/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pradar-tfm-demo.streamlit.app/)
 
 **Demo online:** https://pradartfmdemo-vqvatyrcaevxyfn6clpvzj.streamlit.app/
 
