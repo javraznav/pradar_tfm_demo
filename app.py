@@ -1,14 +1,3 @@
-import streamlit as st
-try:
-    st.sidebar.image('images/logo_pradar_main.png', width=180)
-except Exception:
-    pass
-try:
-#     st.set_page_config(page_title='PRADAR · Dynamic Pricing VR', page_icon='images/logo_pradar_main.png', layout='wide')
-except Exception:
-    pass
-st.image('images/logo_pradar_main.png', width=220)
-
 import os
 from pathlib import Path
 import json
@@ -23,7 +12,7 @@ import unicodedata, re
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("PRADAR")
 
-# st.set_page_config(
+st.set_page_config(
     page_title="PRADAR - Price Radar",
     page_icon="💶",
     layout="wide",
