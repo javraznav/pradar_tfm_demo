@@ -1,3 +1,10 @@
+import streamlit as st
+try:
+    st.set_page_config(page_title='PRADAR · Dynamic Pricing VR', page_icon='images/logo_pradar_main.png', layout='wide')
+except Exception:
+    pass
+st.image('images/logo_pradar_main.png', width=220)
+
 import os
 from pathlib import Path
 import json
