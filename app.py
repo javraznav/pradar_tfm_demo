@@ -6,6 +6,10 @@ import numpy as np
 import pandas as pd
 import duckdb
 import streamlit as st
+try:
+    st.sidebar.image('images/logo_pradar_main.png', width=180)
+except Exception:
+    pass
 import logging
 import unicodedata, re
 
