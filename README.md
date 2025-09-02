@@ -2,9 +2,10 @@
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pradar-tfm-demo.streamlit.app/)
 
-**Demo online:** https://pradartfmdemo-vqvatyrcaevxyfn6clpvzj.streamlit.app/
+**Demo online:** https://pradar-tfm-demo.streamlit.app/
 
 ![Logo](images/logo_pradar_main.png)
+
 
 
 Aplicación **read‑only** para **visualizar y descargar precios diarios** generados por el pipeline PRADAR (notebooks `00→04`).  
