@@ -18,7 +18,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
-st.sidebar.image("images/logo_pradar_main.png", width=200)
+st.sidebar.image("images/logo_pradar_main.png", width=150)
 
 
 # ----------- CSS (sidebar ancha + botones con estado) -----------
