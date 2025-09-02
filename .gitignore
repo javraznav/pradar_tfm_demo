@@ -1,3 +1,7 @@
 !data/processed/app_meta.parquet
 !data/processed/eta_by_lead_time.csv
 !data/processed/profile_factors.json
+!data/processed/df_prices.parquet
+!data/processed/app_prices_active.parquet
+!data/processed/app_prices_active.csv
+!data/processed/df_prices_eta.parquet
